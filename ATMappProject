@@ -1,0 +1,91 @@
+atm_card.py
+class ATMCard:
+    def __init__(self, defaultPin, defaultBalance):        
+        self.defaultPin = defaultPin
+        self.defaultBalance = defaultBalance
+        print('Masukkan Nomor PIN Anda:')
+        
+    def info(self):
+        return self.defaultPin
+
+    def get_balance(self, defaultBalance):
+        balance == self.defaultBalance
+        return balance
+ 
+ customer.py
+ from atm_card import ATMCard
+
+class Customer:
+    def __init__(self, id, custPin, custBalance)
+        self.id = id
+        self.custPin = 1234
+        self.custBalance = 10000
+
+    def info(self):
+        return self.id
+
+    def get_custPin(self, custPin)
+        return custPin
+
+    def get_custBalance(self, custBalance)
+        return custBalance
+
+    debet = custBalance - nominal
+    simpan = custBalance + nominal
+
+    def (self, debet, nominal):
+        self.debet = custBalance - nominal
+        print('Saldo uang Anda berkurang: ' + str(self.debet))
+
+    def (self, simpan, nominal)
+        self.simpan = custBalance + nominal
+        print('Saldo uang Anda bertambah: ') + str(self.simpan)) 
+  
+  atm_program.py
+  from customer import Customer
+
+while True:
+    id = int(input("Masukkan pin anda: "))
+    trial = 0
+
+while (id !: int(atm.checkPin()) and trial < 3):
+    id = int(input("Pin anda salah. Silahkan Masukkan lagi: "))
+    trial += 1
+
+    if trial == 3:
+        print("Error. Silahkan ambil kartu dan coba lagi")
+        exit()
+
+while True:
+        print("Selamat Datang")
+    id = int(input("Pilih transaksi anda: "))
+
+    if id = 1
+        print("Cek Saldo")
+        checkBalance()
+
+    elif id = 2
+        print("Debet")
+        input(nominal < saldo)
+        withdrawBalance()
+            print("Sisa saldo: " + str(self.debet))
+
+    elif id = 3
+        print("Simpan")
+        depositBalance()
+            print("Saldo saat ini: ") + str(self.simpan))
+
+    elif id = 4
+        print("Ganti pin")
+        input("Masukkan pin baru anda: ") + str(self.newPin))
+        self.newPin != self.custPin
+
+    elif id = 5
+        print("Keluar")
+            random(int(100000 - 1000000) + str(datetime) + str(depositBalance))
+
+    else print("Pilihan anda salah")
+
+    
+
+ 
